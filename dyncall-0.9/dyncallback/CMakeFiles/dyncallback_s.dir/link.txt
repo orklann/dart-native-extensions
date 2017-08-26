@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdyncallback_s.a  CMakeFiles/dyncallback_s.dir/dyncall_callback_arch.S.o CMakeFiles/dyncallback_s.dir/dyncall_thunk.c.o CMakeFiles/dyncallback_s.dir/dyncall_alloc_wx.c.o CMakeFiles/dyncallback_s.dir/dyncall_args.c.o CMakeFiles/dyncallback_s.dir/dyncall_callback.c.o
+/usr/bin/ranlib libdyncallback_s.a

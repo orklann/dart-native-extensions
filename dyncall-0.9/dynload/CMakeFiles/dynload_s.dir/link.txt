@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdynload_s.a  CMakeFiles/dynload_s.dir/dynload.c.o CMakeFiles/dynload_s.dir/dynload_syms.c.o
+/usr/bin/ranlib libdynload_s.a

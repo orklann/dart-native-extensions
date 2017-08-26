@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC   -shared -Wl,-soname,libsharedlib.so -o libsharedlib.so CMakeFiles/sharedlib.dir/sharedlib.c.o ../../dynload/libdynload_s.a 

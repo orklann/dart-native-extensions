@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/callback_plain.dir/callback_plain.c.o  -o callback_plain -rdynamic ../../dyncallback/libdyncallback_s.a 

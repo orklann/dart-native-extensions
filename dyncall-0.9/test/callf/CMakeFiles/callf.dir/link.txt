@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/callf.dir/main.c.o  -o callf -rdynamic ../../dyncall/libdyncall_s.a 

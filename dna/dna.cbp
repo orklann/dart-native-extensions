@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dna" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Unix;" />
+				<Option output="bin/Debug/dna" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<ExtraCommands>
+					<Add after="cp ./bin/Debug/libdna.so ../../../dna/lib/src/libdna.so" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Unix;" />
+				<Option output="bin/Release/dna" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-fpermissive" />
+			<Add option="-fPIC" />
+			<Add directory="/usr/lib/dart" />
+			<Add directory="../dyncall-0.9/dyncall" />
+			<Add directory="../dyncall-0.9/dynload" />
+		</Compiler>
+		<Linker>
+			<Add library="../dyncall-0.9/dyncall/libdyncall_s.a" />
+			<Add library="../dyncall-0.9/dynload/libdynload_s.a" />
+			<Add directory="/usr/lib/dart/lib" />
+			<Add directory="../dyncall-0.9/dyncall" />
+			<Add directory="../dyncall-0.9/dynload" />
+		</Linker>
+		<Unit filename="args.cpp" />
+		<Unit filename="args.h" />
+		<Unit filename="calls.cpp" />
+		<Unit filename="calls.h" />
+		<Unit filename="lib.cpp" />
+		<Unit filename="lib.h" />
+		<Unit filename="main-resolver.cpp" />
+		<Unit filename="main-resolver.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="struct.cpp" />
+		<Unit filename="struct.h" />
+		<Unit filename="test.cpp" />
+		<Unit filename="vm.cpp" />
+		<Unit filename="vm.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

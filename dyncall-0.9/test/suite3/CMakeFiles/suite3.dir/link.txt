@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/suite3.dir/case.cc.o CMakeFiles/suite3.dir/main.cc.o  -o suite3 -rdynamic ../../dyncall/libdyncall_s.a 

@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/nm.dir/nm.c.o  -o nm -rdynamic ../../dynload/libdynload_s.a -ldl 

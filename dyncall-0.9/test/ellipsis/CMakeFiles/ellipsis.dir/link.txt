@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/ellipsis.dir/main.cc.o CMakeFiles/ellipsis.dir/ellipsis.cc.o  -o ellipsis -rdynamic ../../dyncall/libdyncall_s.a 

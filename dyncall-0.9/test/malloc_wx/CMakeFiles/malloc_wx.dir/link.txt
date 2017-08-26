@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/malloc_wx.dir/test_wx.c.o  -o malloc_wx -rdynamic ../../dyncallback/libdyncallback_s.a 

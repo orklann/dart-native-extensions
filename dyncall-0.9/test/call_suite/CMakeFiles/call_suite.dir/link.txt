@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/call_suite.dir/globals.c.o CMakeFiles/call_suite.dir/invoke.c.o CMakeFiles/call_suite.dir/cases.c.o CMakeFiles/call_suite.dir/main.c.o  -o call_suite -rdynamic ../../dyncall/libdyncall_s.a 

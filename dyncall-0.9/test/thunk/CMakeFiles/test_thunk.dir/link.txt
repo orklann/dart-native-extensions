@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/test_thunk.dir/test_thunk.c.o  -o test_thunk -rdynamic ../../dyncallback/libdyncallback_s.a 

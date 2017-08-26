@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdyncall_s.a  CMakeFiles/dyncall_s.dir/dyncall_call.S.o CMakeFiles/dyncall_s.dir/dyncall_vector.c.o CMakeFiles/dyncall_s.dir/dyncall_struct.c.o CMakeFiles/dyncall_s.dir/dyncall_api.c.o CMakeFiles/dyncall_s.dir/dyncall_callvm.c.o CMakeFiles/dyncall_s.dir/dyncall_callvm_base.c.o CMakeFiles/dyncall_s.dir/dyncall_callf.c.o
+/usr/bin/ranlib libdyncall_s.a

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/plain_cxx.dir/test_main.cc.o  -o plain_cxx -rdynamic ../../dyncall/libdyncall_s.a 

@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/resolve_self.dir/main.c.o  -o resolve_self -rdynamic ../../dynload/libdynload_s.a 

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+b32325cc8c4ac38ab0ee1f92b371f546 doc/manual/CMakeFiles/manual

@@ -1,0 +1,13 @@
+**/Debug/
+**/Release/
+**/bin/
+**/obj/
+
+**/*.user
+**/*.suo
+**/*.sdf
+
+**/*.depend
+**/*.layout
+**/*.db
+**/*.opendb
